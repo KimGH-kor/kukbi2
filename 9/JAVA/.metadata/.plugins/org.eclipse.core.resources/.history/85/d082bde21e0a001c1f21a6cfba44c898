@@ -1,0 +1,19 @@
+package 상속.유닛들;
+
+import 상속.유닛타입.지상유닛;
+
+public class 시즈탱크 extends 지상유닛{
+	
+	@Override
+	public void 공격() {
+		// TODO Auto-generated method stub
+		super.공격();
+	}
+
+	@Override
+	public void 이동() {
+		// TODO Auto-generated method stub
+		super.이동();
+	}
+
+}

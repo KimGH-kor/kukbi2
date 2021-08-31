@@ -1,0 +1,8 @@
+package 학점산출프로그램.school;
+
+public class Student {
+	private int studentId;
+	private String studentName;
+	private Subject major;
+	
+}

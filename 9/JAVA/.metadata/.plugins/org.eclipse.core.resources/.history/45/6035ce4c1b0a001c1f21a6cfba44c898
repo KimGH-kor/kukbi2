@@ -1,0 +1,18 @@
+package 상속;
+
+public abstract class 유닛상속 implements 유닛{
+	String 이름;
+	int 공격;
+	@Override
+	public void 공격() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void 이동() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

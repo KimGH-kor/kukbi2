@@ -1,0 +1,20 @@
+ul{
+  list-style: none;
+}
+
+li{
+  float: left;
+  border: 1px solid white;
+  padding: 30px;
+  background-color: skyblue;
+  color: white;
+  font-size: 50px;
+}
+li:hover{
+  background-color: white;
+  color: skyblue;
+  border: none;
+  border-top: skyblue 1px solid;
+  border-bottom: skyblue 1px solid;
+  transition: .8s;
+}

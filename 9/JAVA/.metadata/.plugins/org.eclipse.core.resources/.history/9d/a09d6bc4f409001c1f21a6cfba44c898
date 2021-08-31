@@ -1,0 +1,30 @@
+package 재고관리;
+
+public class Goods {
+	String goods;
+	int num;
+	
+	Goods(String godds, int num){
+		this.goods = goods;
+		this.num = num;
+	}
+	
+	
+	public String getGoods() {
+		return goods;
+	}
+	public void setGoods(String goods) {
+		this.goods = goods;
+	}
+	public int getNum() {
+		return num;
+	}
+	public void setNum(int num) {
+		this.num = num;
+	}
+	
+	public void in(int goods, String num) {
+		
+	}
+	
+}

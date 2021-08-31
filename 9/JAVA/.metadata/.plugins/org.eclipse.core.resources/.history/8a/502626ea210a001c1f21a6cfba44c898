@@ -1,0 +1,23 @@
+package 상속.유닛들;
+
+import 상속.유닛타입.지상유닛;
+
+public class 저글링 extends 지상유닛{
+
+	@Override
+	public void 공격() {
+		// TODO Auto-generated method stub
+		super.공격();
+		System.out.println("공격속도가 아주 빠릅니다.");
+		System.out.println("공격력 : "+공격력);
+	}
+
+	@Override
+	public void 이동() {
+		// TODO Auto-generated method stub
+		super.이동();
+		스피드 += 5;
+		System.out.println("스피드 : "+스피드);
+	}
+
+}

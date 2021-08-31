@@ -1,0 +1,5 @@
+package 상속;
+
+public class 공중유닛 extends 유닛상속 {
+
+}

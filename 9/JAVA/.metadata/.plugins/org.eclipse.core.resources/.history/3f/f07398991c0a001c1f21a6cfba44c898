@@ -1,0 +1,21 @@
+package 상속.유닛타입;
+
+public class 지상유닛 extends 유닛상속{
+	
+	public 지상유닛(String name, int att) {
+		this.이름 = name;
+		this.공격력 = att;
+	}
+	@Override
+	public void 공격() {
+		super.공격();
+		System.out.println("공중 유닛에게 더 큰 피해를 줍니다.");
+	}
+
+	@Override
+	public void 이동() {
+		// TODO Auto-generated method stub
+		super.이동();
+	}
+
+}

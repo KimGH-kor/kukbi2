@@ -1,0 +1,13 @@
+package »ó¼Ó.À¯´Öµé;
+
+import »ó¼Ó.À¯´ÖÅ¸ÀÔ.°øÁßÀ¯´Ö;
+
+public class ¹ÂÅ» extends °øÁßÀ¯´Ö{
+
+	public ¹ÂÅ»(String name, int att) {
+		super(name, att);
+	}
+
+	
+
+}
