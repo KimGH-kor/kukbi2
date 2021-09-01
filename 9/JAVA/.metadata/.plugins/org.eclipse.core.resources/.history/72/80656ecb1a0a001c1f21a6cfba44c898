@@ -1,6 +1,0 @@
-package 상속;
-
-public interface 유닛 {
-	public String 이름;
-	
-}

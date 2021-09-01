@@ -1,6 +1,0 @@
-package 상속;
-
-public class 유닛1 {
-	String 이름;
-	int 공격;
-}

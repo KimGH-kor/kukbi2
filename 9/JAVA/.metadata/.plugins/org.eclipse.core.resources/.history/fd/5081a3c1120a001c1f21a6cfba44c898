@@ -1,7 +1,0 @@
-package 학점산출프로그램.school;
-
-public class Score {
-	int studentId;
-	Subject subject;
-	int point
-}

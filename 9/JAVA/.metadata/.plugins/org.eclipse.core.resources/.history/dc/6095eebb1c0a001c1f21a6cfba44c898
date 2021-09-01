@@ -1,9 +1,0 @@
-package 상속.유닛들;
-
-import 상속.유닛타입.공중유닛;
-
-public class 뮤탈 extends 공중유닛{
-
-	
-
-}

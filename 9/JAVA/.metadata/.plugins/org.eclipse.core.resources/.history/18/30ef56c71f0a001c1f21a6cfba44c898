@@ -1,7 +1,0 @@
-package 상속.유닛들;
-
-import 상속.유닛타입.지상유닛;
-
-public class 저글링 extends 지상유닛{
-
-}

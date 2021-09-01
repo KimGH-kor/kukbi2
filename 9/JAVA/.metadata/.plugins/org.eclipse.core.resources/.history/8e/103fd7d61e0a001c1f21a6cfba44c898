@@ -1,5 +1,0 @@
-package 상속.유닛들;
-
-public class 시즈탱크 extends 지상유닛{
-
-}
