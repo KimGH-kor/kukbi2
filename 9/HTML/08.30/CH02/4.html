@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      text-align: center;
+    }
+    .origin{
+      margin: 10px;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      width: 300px;
+      height: 200px;
+      
+    }
+    .origin:hover{
+      transition: 0.5s;
+      transform: translate(-10px,-10px);
+      box-shadow: 10px 5px 5px pink;
+    }
+    .origin > div{
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      padding-top: 20px;
+      z-index: 10;
+      opacity: 0;
+      top: 0;
+      
+    }
+    .origin:hover >div{
+      top: 0;
+      transition: 0.5s;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      opacity: 1;
+    }
+
+    /* 다른거 */
+
+    .origin2{
+      margin: 10px;
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      width: 300px;
+      height: 200px;
+    }
+    .origin2:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+    .origin2 > div{
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      padding-top: 20px;
+      z-index: 10;
+      opacity: 0;
+      top: 0;
+      overflow: hidden;
+    }
+    .origin2:hover >div{
+      top: 0;
+      transition: 0.5s;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      opacity: 1;
+    }
+    /* 다른거3 */
+    .origin3{
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      margin: 10px;
+      width: 300px;
+      height: 200px;
+    }
+    .origin3:hover{
+      transition: 0.5s;
+    }
+    .origin3 > div{
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      padding-top: 20px;
+      z-index: 10;
+      opacity: 0;
+      top: 200px;
+    }
+    .origin3:hover > div{
+      transform: translateY(-200px);
+      transition: 0.8s;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      opacity: 1;
+    }
+    @media screen and (min-width:768px) and(max-height:1439px) {
+      
+    }
+  </style>
+  <meta>
+</head>
+<body>
+  <h1>신상품 목록</h1>
+  <div id="container">
+    <div class="origin">
+      <img src="img/prod1.jpg">
+      <div class = "pro1">
+        <h2>상품 1</h2>
+        <p>상품 1 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+    <div class="origin">
+      <img src="img/prod2.jpg">
+      <div class = "pro2">
+        <h2>상품 2</h2>
+        <p>상품 2 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+    <div class="origin">
+      <img src="img/prod3.jpg">
+      <div class = "pro3">
+        <h2>상품 3</h2>
+        <p>상품 3 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+  </div>
+
+  <h1>신상품 목록2</h1>
+  <div id="container2">
+    <div class="origin2">
+      <img src="img/prod1.jpg">
+      <div class = "pro1">
+        <h2>상품 1</h2>
+        <p>상품 1 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+    <div class="origin2">
+      <img src="img/prod2.jpg">
+      <div class = "pro2">
+        <h2>상품 2</h2>
+        <p>상품 2 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+    <div class="origin2">
+      <img src="img/prod3.jpg">
+      <div class = "pro3">
+        <h2>상품 3</h2>
+        <p>상품 3 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+  </div>
+
+  <h1>신상품 목록3</h1>
+  <div id="container3">
+    <div class="origin3">
+      <img src="img/prod1.jpg">
+      <div class = "pro1">
+        <h2>상품 1</h2>
+        <p>상품 1 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+    <div class="origin3">
+      <img src="img/prod2.jpg">
+      <div class = "pro2">
+        <h2>상품 2</h2>
+        <p>상품 2 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+    <div class="origin3">
+      <img src="img/prod3.jpg">
+      <div class = "pro3">
+        <h2>상품 3</h2>
+        <p>상품 3 설명 텍스트</p>
+        <p>가격 : 12,345원</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #container{
+      width: 1000px;
+      width: 600px;
+    }
+    .origin{
+      display: inline-block;
+      border: 1px solid black;
+      width: 150px;
+      height: 150px;
+      margin: 20px;
+    }
+    .origin > div{
+      background-color: yellow;
+      width: 100%;
+      height: 100%;
+    }
+    .x:hover{
+      transform:rotateX(55deg);
+      transition: 0.5s;
+    }
+    .y:hover{
+      transform: rotate(55deg);
+      transition: 0.5s;
+    }
+    .xy:hover{
+      transform: rotate3D(2.5,1.2,-1.5,55deg);
+      transition: 0.5s;
+    }
+  </style>
+</head>
+<body>
+  <div id = "container">
+    <div class="origin">
+      <div class="x"></div>
+    </div>
+    <div class="origin">
+      <div class="y"></div>
+    </div>
+    <div class="origin">
+      <div class="xy"></div>
+    </div>
+  </div>
+</body>
+</html>
