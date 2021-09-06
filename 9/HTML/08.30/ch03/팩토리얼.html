@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>팩토리얼 계산</h1>
+  <script>
+    let num = prompt("팩토리얼 할 숫자를 선택해 주세요");
+    let mul = 1;
+
+    if(num == null){
+      document.write("값을 입력하지 않았습니다.");
+    }else{
+    while(num != 1){
+      mul *= num;
+      num--;
+    }
+    document.write("결과값은 "+mul)
+  }
+  </script>
+</body>
+</html>

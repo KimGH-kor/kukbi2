@@ -11,7 +11,7 @@
     <fullyQualifiedTypeName name="학점산출프로그램.util.Define"/>
     <fullyQualifiedTypeName name="상속.유닛타입.공중유닛"/>
     <fullyQualifiedTypeName name="상속.유닛타입.지상유닛"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ch02.ATMcopy.CheckingAccount"/>
     <fullyQualifiedTypeName name="ch02.ATMcopy.BonusPoint"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
