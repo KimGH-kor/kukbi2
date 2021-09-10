@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="com.sun.jmx.remote.internal.ArrayQueue"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="com.sun.beans.util.Cache"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="학점산출프로그램.util.Define"/>
@@ -12,7 +11,6 @@
     <fullyQualifiedTypeName name="상속.유닛타입.지상유닛"/>
     <fullyQualifiedTypeName name="ch02.ATMcopy.CheckingAccount"/>
     <fullyQualifiedTypeName name="ch02.ATMcopy.BonusPoint"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ch03.SeparateVolume"/>
     <fullyQualifiedTypeName name="ch03.AppCDInfo"/>
     <fullyQualifiedTypeName name="ch03.대출서비스.function.SeparateVolume"/>
@@ -27,5 +25,11 @@
     <fullyQualifiedTypeName name="ch04.Academy"/>
     <fullyQualifiedTypeName name="java.io.StreamTokenizer"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="ch05.객체연습.Circle"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="com.sun.imageio.plugins.common.SingleTileRenderedImage"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

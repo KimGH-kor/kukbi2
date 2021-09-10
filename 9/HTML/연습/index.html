@@ -1,0 +1,71 @@
+
+<html>
+  <head>
+  <title>
+  </title>
+  <style type="text/css">
+  div,span,td{font-family:lucida console;font-size:9pt;}
+  #headbox{border:#D6D3CE 2 inset}
+  .item{padding-left:3px;filter:blendTrans(duration=1);background:white;color:black;}
+  </style>
+  <script>
+  function call_select(){
+    if(bodybox.style.display=="none"){
+      bodybox.style.display="block";
+      header.style.background="white";
+      header.style.color="black";
+    }else{
+      bodybox.style.display="none";
+      header.style.background="activecaption";
+      header.style.color="white";
+    }
+  }
+  function callTrans(){
+    event.srcElement.filters(0).apply();
+    event.srcElement.style.background="activecaption";
+    event.srcElement.style.color="white";
+    event.srcElement.filters(0).play();
+  }
+  function callTrans2(){
+    event.srcElement.filters(0).apply();
+    event.srcElement.style.background="white";
+    event.srcElement.style.color="black";		
+    event.srcElement.filters(0).play();
+  }
+  function callText(){
+    header.filters(0).apply();
+    header.innerText=event.srcElement.innerText;
+    bodybox.style.display="none";
+    header.style.background="activecaption";
+    header.style.color="white";
+    header.filters(0).play();
+  }
+  
+  </script>
+  </head>
+  
+  <body>
+  <div id=container style="position:absolute;left:550;top:420;width:120;height:300;">
+  <div id=headbox style="position:absolute;left:0;top:0;width:120;height:23px;">
+  
+  <span id=header style="cursor:default;position:absolute;left:0;top:0;width:100;padding-left:3px;padding-top:2px;height:20px;filter:revealTrans(duration=1,transition=6);">
+  option Menu
+  </span>
+  <span id=arrow style="cursor:default;position:absolute;left:99;top:0;width:15px;font-size:8pt;background:buttonface;height:18px;padding-left:2px;padding-top:2px;border-top:buttonhighlight 2 solid;border-left:buttonhighlight 2 solid;border-right:buttonshadow 2 solid;border-bottom:buttonshadow 2 solid;"
+   onclick="call_select()">
+  ▼
+  </span>
+  
+  </div>
+  <span id=bodybox style="display:none;position:absolute;left:0;top:24;width:120;border:black 1 solid;">
+  <table width="100%" cellspacing=0 style="cursor:default">
+  <tr><td class=item onmouseover="callTrans()" onmouseout="callTrans2()" onclick="callText()">JavaScript</td></tr>
+  <tr><td class=item onmouseover="callTrans()" onmouseout="callTrans2()" onclick="callText()">DHTML</td></tr>
+  <tr><td class=item onmouseover="callTrans()" onmouseout="callTrans2()" onclick="callText()">VML</td></tr>
+  <tr><td class=item onmouseover="callTrans()" onmouseout="callTrans2()" onclick="callText()">XML</td></tr>
+  <tr><td class=item onmouseover="callTrans()" onmouseout="callTrans2()" onclick="callText()">WML</td></tr>
+  </table>
+  </span>
+  </div>
+  </body>
+  </html>
