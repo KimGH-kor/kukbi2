@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Web Programming</h1>
+  <form action="">
+    <input type="text" id="textSub" autofocus>
+    <button onclick="addLi(); return false;">추가</button>
+    <ul id="info"></ul>
+  </form>
+</body>
+</html>
+<script>
+  function addLi(){
+  var list = document.getElementById("info");
+  var newLi = document.createElement("li");
+  var newSub = document.querySelector("#textSub");
+  var newText = document.createTextNode(newSub.value);
+  var dele = document.createElement("button");
+  var xButt = document.createTextNode("x")
+
+  dele.append(xButt);
+  newLi.appendChild(newText);
+  newLi.appendChild(dele);
+  list.insertBefore(newLi, document.getElementById("info").childNodes[0]);
+  // list.appendChild(newLi);
+  
+  newSub.value="";
+  
+  var items = document.querySelectorAll("li");
+  for(let i = 0; i < items.length; i++){
+    items[i].childNodes[1].addEventListener("click",function(){
+      this.parentNode.remove();
+    })
+  }
+};
+
+</script>
